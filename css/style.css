@@ -1,0 +1,48 @@
+.navigation-block {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 25px;
+    height: 76px;
+}
+.nav-ul {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+.burger-bar {
+    display: none;
+    color:#fff;
+    font-size:25px;
+}
+
+/* section#2 styles */
+.wraper-box {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    background-color: lightblue;
+    flex-wrap: wrap;
+}
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+
+/* social icons */
+.fb-icon {
+    font-size: 35px;
+    color:blue;
+}
+.fa-youtube {
+    font-size: 35px;
+    color:red;
+    margin-left: 35px;
+}
+.fb-icon:hover {
+    color:yellow;
+}
+.fa-youtube:hover {
+    color:green;
+}
